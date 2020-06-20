@@ -1,0 +1,9 @@
+@import url(__menu/footer__menu.css);
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}

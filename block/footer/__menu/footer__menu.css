@@ -1,0 +1,5 @@
+.footer__menu {display: flex;}
+
+.menu__item {padding-right: 18px;}
+
+.menu__link {text-decoration: none;}
