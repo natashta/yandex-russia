@@ -1,8 +1,10 @@
 .footer__menu {display: flex;}
 
-.menu__item {padding-right: 18px;}
+.menu__item {padding-right: 18px; font-size: 24px;}
 
 .menu__link {text-decoration: none;}
+
+.menu__link:hover, .menu__link:active {text-decoration: underline;}
 
 @media (max-width: 1024px) {
     .menu__item {
