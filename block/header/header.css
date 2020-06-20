@@ -1,7 +1,7 @@
 @import url(__menu/header__menu.css);
 
 .header {
-    width: 1184px;
+    max-width: 1184px;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -13,24 +13,24 @@
 
 @media (max-width: 1279px) {
     .header{
-        width: 928px;
+        max-width: 928px;
     }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
     .header {
-        width: 720px;
+       max-width: 720px;
     }
 }
 
 @media (max-width: 767px) {
     .header {
-        width: 343px;
+        max-width: 343px;
     }
 }
 
 @media (max-width: 374px) {
     .header {
-        width: 288px;
+        max-width: 288px;
     }
 }

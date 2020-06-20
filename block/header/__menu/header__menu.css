@@ -1,16 +1,20 @@
-.header__menu {
+.header__lang {
     display: flex;
     margin-bottom: 10px;
 }
 
-.header__menu a {text-decoration: none;}
+.header__lang a {text-decoration: none;}
 
-.menu__item {
+.lang__item {
     font-size: 24px;
     line-height: 23px;
     text-align: right;
 }
 
-.menu__item:not(:last-child) {margin-right: 18px;}
+.lang__item:not(:last-child) {margin-right: 18px;}
 
-.menu__item:hover, .menu__item:active {text-decoration: underline;}
+.lang__item:hover, .lang__item:active {text-decoration: underline;}
+
+@media (max-width: 767px) {
+.lang__item {font-size: 18px;}
+}

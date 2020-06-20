@@ -7,3 +7,7 @@
     margin: 0 auto;
     margin-bottom: 48px;
 }
+
+@media (max-width: 767px) {
+    .footer {display: block;}
+}

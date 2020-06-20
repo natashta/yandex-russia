@@ -3,3 +3,21 @@
 .menu__item {padding-right: 18px;}
 
 .menu__link {text-decoration: none;}
+
+@media (max-width: 1024px) {
+    .menu__item {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .footer__copiright {font-size: 14px;}
+}
+
+@media (max-width: 767px) {
+    .footer__menu {display: block;}
+
+    .menu__item {
+        font-size: 24px;
+        line-height: 41px;
+    }
+    .footer__copiright {margin-top:30px;}
+}

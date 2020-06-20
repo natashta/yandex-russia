@@ -17,4 +17,25 @@ img {
     max-width: 100%;
     height: auto;
   }
+
+  @media (max-width: 1279px) {
+      main, .footer {
+        padding-left: 45px;
+        padding-right: 45px;
+      }
+    }
+
+      @media (max-width: 1024px) {
+        main, .footer {
+          padding-left: 24px;
+          padding-right: 24px;
+        }
+  } 
+
+  @media (max-width: 767px) {
+    main, .footer {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
   
